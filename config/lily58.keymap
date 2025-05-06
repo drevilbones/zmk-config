@@ -72,7 +72,7 @@
             >;
         };     
 
-//         new_layer { // ?
+/*         new_layer { // ?
 //            display-name = "new";
 //            bindings = <
 //&trans    &trans    &trans    &trans    &trans    &trans                          &trans    &trans    &trans    &trans    &trans    &trans
@@ -83,6 +83,6 @@
 //            >;
 //        }; 
 //&kp       &kp       &kp       &kp       &kp       &kp                             &kp       &kp       &kp       &kp       &kp       &kp   
-
+*/
     };
 };
