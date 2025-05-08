@@ -68,7 +68,7 @@
 &trans    &trans    &trans    &trans    &trans    &trans                          &trans    &trans    &trans    &trans    &trans    &trans
 &trans    &trans    &trans    &trans    &trans    &trans                          &trans    &trans    &trans    &trans    &trans    &trans
 &trans    &trans    &trans    &trans    &trans    &trans                          &trans    &trans    &trans    &trans    &trans    &trans
-                        ext_power EP_ON &trans    &trans    &trans      &trans    &trans    &trans    &trans
+                       &ext_power EP_ON &trans    &trans    &trans      &trans    &trans    &trans    &trans
             >;
         }; 
 
