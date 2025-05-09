@@ -10,6 +10,15 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 / {
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+        tri_layer {
+            if-layers = <2 3>;
+            then-layer = <4>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -94,14 +103,6 @@
 //            >;
 //        }; 
 //&kp       &kp       &kp       &kp       &kp       &kp                             &kp       &kp       &kp       &kp       &kp       &kp   
-    };
-
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-        tri_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
     };
 };
 
